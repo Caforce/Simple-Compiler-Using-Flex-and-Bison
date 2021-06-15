@@ -1,0 +1,79 @@
+import mathematical.h
+import exchangeInfo.h
+
+main
+begin
+	inumber a, ba = 9, c, F, b;
+	a = 3;
+	ba = 4;
+	b = 4;
+	c = a * ba;
+	F = 5;
+	b = a + c / F * 3 - 2;
+	b+c;
+
+	3**2;
+	7%3;
+
+	inumber p = F - a;
+	inumber p;
+
+	if(p == 2)
+		a + 1;
+	fi
+
+	if(p == 3)
+		a+b;
+	fi else if(p == 2)
+		b-a;
+	fi else
+		a - 1;
+	fi
+
+	if(a>=b)
+		a+b;
+	fi else
+		b-a;
+	fi
+
+	display(c-b);
+	display("This is a simple text");
+
+
+	switch ( a )
+	begin
+	case 1 :
+		a + b;
+	+
+	case 2 :
+		b + c; 
+	+
+	case 3 : 
+		a + c; 
+	DEFAULT :
+		c + 1;
+	end 
+
+	loop (a:cd)
+		a+b;
+	done
+	
+	loop(a:c:a)
+		a-b;
+	done
+
+	pool (c:a)
+		a+b;
+	done
+
+	pool(c:a:a)
+		a-b;
+	done
+
+
+	//comment
+	/*
+	multiple line comment 
+	*/
+
+end
